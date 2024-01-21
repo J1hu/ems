@@ -4,17 +4,15 @@ import SideBar from './components/SideBar.vue';
 </script>
 
 <template>
-    <!-- HEADER -->
-    <div class="p-3">Header</div>
+    <nav class="p-3 fixed bg-red-400 w-full">
+        Header
+    </nav>
     
-    <!-- MAIN CONTENT -->
-    <div class="grid grid-cols-5 h-screen">
-        <!-- SIDEBAR -->
+    <div class="grid grid-cols-6 h-screen pt-12">
         <div class="bg-orange-400 col-span-1 p-3">
             <SideBar/>
         </div>
-        <!-- CONTENT -->
-        <div class="bg-blue-400 col-span-4 p-3">
+        <div class="bg-blue-400 col-span-5 p-3">
             Content
         </div>
     </div>
