@@ -9,7 +9,7 @@ import SideBar from './components/SideBar.vue';
     </nav>
     
     <div class="grid grid-cols-6 h-screen pt-12">
-        <div class="bg-orange-400 col-span-1 p-3">
+        <div class="col-span-1">
             <SideBar/>
         </div>
         <div class="bg-blue-400 col-span-5 p-3">
