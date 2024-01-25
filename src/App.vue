@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import SideBar from './components/SideBar.vue';
 import MainHeader from './components/MainHeader.vue';
+import MainContent from './components/MainContent.vue';
 
 </script>
 
@@ -14,7 +15,7 @@ import MainHeader from './components/MainHeader.vue';
             <SideBar />
         </div>
         <div class="col-span-5 z-0">
-            Content
+            <MainContent />
         </div>
     </div>
 </template>
