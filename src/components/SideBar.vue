@@ -3,17 +3,17 @@
 </script>
 
 <template>
-    <div class="flex flex-col gap-2 h-full sidebar-bg">
+    <div class="fixed flex flex-col gap-2 px-10 h-full sidebar-bg">
         <div class="flex flex-col gap-y-2 items-center text-center">
             <div class="flex w-40 h-40 justify-center items-center mt-10">
                 <img class="rounded-full" src="/avatar.png" alt="avatar">
             </div>
-            <div class="p-3">
+            <p class="font-bold text-xl">
                 Jehu Casimiro
-            </div>
+            </p>
         </div>
-        <div class="bg-gray-600 p-3">
-            Menu
+        <div class="pt-3 text-xs mt-5">
+            MAIN MENU
         </div>
     </div>
 </template>

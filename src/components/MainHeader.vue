@@ -4,7 +4,7 @@ import { BellIcon } from '@heroicons/vue/24/solid'
 </script>
 
 <template>
-    <div class="flex justify-between px-3 py-3 border border-b-gray-300 bg-white">
+    <div class="flex justify-between px-7 py-3 border border-b-gray-300 bg-white">
         <div>
             <span class="text-red-500">Qstrike</span> Macrodashboard
         </div>
